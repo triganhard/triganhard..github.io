@@ -1,4 +1,4 @@
-/* Generated on: Sun Jan 12 2020 12:26:21 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Jan 13 2020 11:41:22 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -203,7 +203,7 @@ h2 {
   padding: 10px 0px;
 }
 
-.navbar-2 {
+.navbar {
   position: absolute;
   left: 0%;
   top: 0%;
@@ -231,21 +231,21 @@ h2 {
   max-width: none;
 }
 
-.heading-5 {
+.sec2-h2 {
   margin-top: 0px;
   color: #2c3230;
   font-size: 36px;
   line-height: 45px;
 }
 
-.heading-5.white {
+.sec2-h2.white {
   display: block;
   margin-right: auto;
   margin-left: auto;
   color: #fff;
 }
 
-.div-block {
+.separator {
   width: 170px;
   height: 15px;
   border-radius: 1000px;
@@ -725,7 +725,7 @@ h2 {
   height: 665px;
 }
 
-.container-copy {
+.container-sec6 {
   display: block;
   overflow: hidden;
   width: 1170px;
@@ -806,7 +806,10 @@ h2 {
   .mask-2 {
     height: 515px;
   }
-  .container-copy {
+  .image-4 {
+    width: 100%;
+  }
+  .container-sec6 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -822,6 +825,16 @@ h2 {
 @media (max-width: 767px) {
   .container {
     min-height: 900px;
+  }
+  .sec1_content {
+    overflow: hidden;
+  }
+  .h2 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .paragraph {
+    font-size: 10px;
   }
   .div-block-2 {
     display: -webkit-box;
@@ -863,6 +876,11 @@ h2 {
     font-size: 12px;
     line-height: 18px;
   }
+  .s1-h1-copy {
+    overflow: hidden;
+    font-size: 46px;
+    line-height: 46px;
+  }
   .mask {
     height: 100%;
     min-height: auto;
@@ -871,7 +889,14 @@ h2 {
     min-height: 800px;
   }
   .mask-2 {
-    height: 380px;
+    height: 320px;
+  }
+  .container-sec6 {
+    overflow: hidden;
+    width: auto;
+    min-height: auto;
+    -o-object-fit: fill;
+    object-fit: fill;
   }
 }
 
@@ -897,6 +922,7 @@ h2 {
   }
   .div-block-2 {
     display: block;
+    text-align: center;
   }
   .sec5_slider_h2 {
     font-size: 30px;
@@ -929,7 +955,7 @@ h2 {
   .image-4 {
     width: 100%;
   }
-  .container-copy {
+  .container-sec6 {
     width: auto;
     max-width: 1170px;
   }
